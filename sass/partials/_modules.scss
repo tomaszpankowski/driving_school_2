@@ -1,0 +1,47 @@
+.bg{
+    &-black{
+        background-color: $color__black !important;
+    }
+}
+.border{
+    &-teal{
+        border-color: $color__teal!important;
+    }
+}
+.branches,.courses{
+    &-s1{
+        background-color: #999 !important;
+        background-blend-mode: multiply;
+    }
+}
+.index{
+    &-s1{
+        background-color: #999 !important;
+        background-blend-mode: multiply;
+        background-position: center!important;
+    }
+}
+.text{
+    &-teal{
+        color: $color__teal!important;
+    }
+}
+textarea{
+    resize: none;
+}
+
+@media all and (max-width: 767px){
+    .index{
+        &-s1{
+            background-position: right!important;
+        }
+    }
+    .navbar{
+        &-nav{
+            background-color: #333;
+            border: 1px solid #555;
+            opacity: 0.8;
+            padding-right: 10px;
+        }
+    }
+}
