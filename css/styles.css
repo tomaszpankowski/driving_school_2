@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Audiowide";
+  src: url("../fonts/Audiowide-Regular.ttf");
+}
 /* line 1, ../sass/partials/_layout.scss */
 * {
   box-sizing: border-box;
@@ -584,17 +588,28 @@ body, html {
 }
 
 /* line 29, ../sass/partials/_modules.scss */
+h1, h2, h3, h4, h5, h6, .nav-link {
+  font-family: "Audiowide";
+  letter-spacing: 1px;
+}
+
+/* line 33, ../sass/partials/_modules.scss */
+header {
+  z-index: 10;
+}
+
+/* line 36, ../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
 @media all and (max-width: 767px) {
-  /* line 35, ../sass/partials/_modules.scss */
+  /* line 42, ../sass/partials/_modules.scss */
   .index-s1 {
     background-position: right !important;
   }
 
-  /* line 40, ../sass/partials/_modules.scss */
+  /* line 47, ../sass/partials/_modules.scss */
   .navbar-nav {
     background-color: #333;
     border: 1px solid #555;
